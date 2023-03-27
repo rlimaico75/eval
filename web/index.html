@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!html>
+<html lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="dist/css/bootstrap.min.css">
@@ -15,16 +15,16 @@
         <div class = "container col-lg-3">
             <form action ="Controlador">
                 <div class="form-group text-center">
-                    <img alt="logo" src="dist/img/LOGO.png" height="80" width="80"/>
+                    <img class="logotipo-inicio" alt="logo" src="dist/img/LOGO.png"/>
                     <p><strong> Sistema de Evaluaciòn </strong></p>
                 </div>
                 <div class="form-group"> 
-                    <label>Usuario</label>
-                    <input class="form-control" type="text" name="txtnom" placeholder="Ingrese Usuario">
+                    <label for="usuario">Usuario</label>
+                    <input class="form-control" type="text" name="txtnom" placeholder="Ingrese Usuario" id="usuario">
                 </div> 
                 <div class="form-group">
-                    <label>Clave</label>
-                    <input class="form-control" type="password" name="txtpass" placeholder="Ingrese Clave">    
+                    <label for="password">Clave</label>
+                    <input class="form-control" type="password" name="txtpass" placeholder="Ingrese Clave" id="password">
                 </div>
                 <input class="btn btn-dark btn-block" type="submit" name= "accion" value="Ingresar">
             </form>
